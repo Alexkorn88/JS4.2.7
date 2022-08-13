@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #C4C4C4;
+  padding: 0 20px;
+}
+
+.wrapper {
+  max-width: 450px;
+  margin: 150px auto;
+}
+
+.search {
+  margin-bottom: 100px;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+.search__input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.search__autocom {
+  max-height: 280px;
+  overflow-y: auto;
+  margin: 0;
+}
+.search__autocom-item {
+  list-style: none;
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.search__autocom-item:hover {
+  background: #65CDF9;
+}
+
+.container {
+  background-color: #E27BEB;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.repositories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #65CDF9;
+  padding: 0px 12px;
+  width: 100%;
+  border-radius: 3px;
+}
+.repositories__name {
+  margin: 8px;
+}
+.repositories__owner {
+  margin: 8px;
+}
+.repositories__stars {
+  margin: 8px;
+}
+.repositories__icon-close {
+  width: 30px;
+  height: 30px;
+}
+.repositories__icon-close:hover {
+  width: 34px;
+  height: 34px;
+}

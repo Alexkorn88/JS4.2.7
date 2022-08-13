@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    background-color: #C4C4C4;
+    padding: 0 20px;
+}
+
+.wrapper {
+
+    max-width: 450px;
+    margin: 150px auto;
+}
+
+
+.search {
+    margin-bottom: 100px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+
+    &__input {
+        height: 55px;
+        width: 100%;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 0 60px 0 20px;
+        font-size: 18px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+
+    }
+
+    &__autocom {
+        //padding: 10px 8px;
+        max-height: 280px;
+        overflow-y: auto;
+        margin: 0;
+
+        &-item {
+
+            list-style: none;
+            padding: 8px 20px;
+            width: 100%;
+            border-radius: 3px;
+            font-size: 18px;
+
+
+            &:hover {
+                background: #65CDF9;
+            }
+        }
+    }
+
+}
+
+
+.container {
+    //margin-top: 100px;
+    background-color: #E27BEB;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.repositories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #65CDF9;
+    padding: 0px 12px;
+    width: 100%;
+    border-radius: 3px;
+
+    &__name {
+        margin: 8px;
+    }
+
+    &__owner {
+        margin: 8px;
+    }
+
+    &__stars {
+        margin: 8px;
+    }
+
+    // &:hover {
+    //     background: #65CDF9;
+    // }
+
+    &__icon-close {
+        width: 30px;
+        height: 30px;
+
+        &:hover {
+            width: 34px;
+            height: 34px;
+        }
+    }
+}
